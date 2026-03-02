@@ -1,0 +1,6 @@
+.DS_Store
+runs/
+wandb/
+.wandb/
+__pycache__/
+.vscode/
