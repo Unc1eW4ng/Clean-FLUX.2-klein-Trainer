@@ -20,7 +20,7 @@ class KleinDataset(Dataset):
         self.size = size
         self.split = split
         self.test_samples = test_samples
-        self.musar = load_dataset('/guozinan/MUSAR')['train']
+        self.musar = load_dataset('guozinan/MUSAR')['train']
         print(f"Loaded MUSAR-Gen dataset with {len(self.musar)} samples.")
         if split == "test":
             self.musar = self.musar.select(range(test_samples))  
