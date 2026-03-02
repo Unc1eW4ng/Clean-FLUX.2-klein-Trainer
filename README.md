@@ -12,7 +12,7 @@ Most existing frameworks are over-engineered with deep abstractions that make cu
 
 **Install Dependencies**
 
-Install torch, torchvision suitable for your CUDA version from https://pytorch.org/get-started/locally/ first.
+Install torch, torchvision suitable for your CUDA version from https://pytorch.org/get-started/previous-versions/ first.
 
 ```bash
 # install the latest diffusers main branch (includes Flux2KleinPipeline)
