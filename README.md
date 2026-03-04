@@ -18,7 +18,7 @@ Install torch, torchvision suitable for your CUDA version from https://pytorch.o
 # install the latest diffusers main branch (includes Flux2KleinPipeline)
 pip install -U "git+https://github.com/huggingface/diffusers.git"
 
-pip install bitsandbytes accelerate transformers diffusers wandb
+pip install bitsandbytes accelerate transformers diffusers wandb peft
 ```
 
 **Customize your Training dataset**
